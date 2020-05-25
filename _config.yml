@@ -22,8 +22,8 @@ title: George Wilson
 email: wilsogeo@gmail.com
 description: >- # Data professional based in Denver, CO.
 I am determined to continuously learn new tools and offer innovative ideas so that I can elevate people and organizations to the best versions of themselves.
-baseurl: "/GeorgeWilson" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://georgewilson23.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: n/a
 github_username:  georgewilson23
 
