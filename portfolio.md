@@ -5,4 +5,4 @@ title:  Portfolio
 image: /assets/img/blog/hydejack-8.png
 ---
 
-Work in progress. Goal display photos and data visualizations
+Work in progress. Goal is to display photos and data visualizations
