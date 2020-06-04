@@ -1,16 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\.scripts",
-    "\\assets",
-    "\\assets\\icons",
-    "\\vendor",
-    "\\_data",
-    "\\_featured_categories",
-    "\\_includes",
-    "\\_includes\\components",
-    "\\_layouts"
+    ""
   ],
-  "SelectedNode": "\\_includes\\components\\hy-img.html",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-05-28T09:13:39-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">George Wilson</title><subtitle>Data professional based in Denver, CO
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-06-03T22:38:23-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">George Wilson</title><subtitle>Data professional based in Denver, CO
 </subtitle><author><name>George Wilson</name><email>wilsogeo@gmail.com</email></author><entry><title type="html">Service Release 8.5</title><link href="http://localhost:4000/posts/2019-07-31-8.5.0/" rel="alternate" type="text/html" title="Service Release 8.5" /><published>2019-07-31T00:00:00-06:00</published><updated>2019-07-31T00:00:00-06:00</updated><id>http://localhost:4000/posts/8.5.0</id><content type="html" xml:base="http://localhost:4000/posts/2019-07-31-8.5.0/">&lt;p&gt;Service release 8.5 includes a number of obvious improvements made possible by changes in the way the web works.&lt;/p&gt;
 
 &lt;h2 id=&quot;better-dark-mode&quot;&gt;Better Dark Mode&lt;/h2&gt;
@@ -16,7 +16,16 @@ A future version of Hydejack could link the extension of the drawer the the scro
 &lt;h2 id=&quot;whats-next&quot;&gt;What’s Next?&lt;/h2&gt;
 &lt;p&gt;8.6 will include a rewrite of the drawer, dynamic page loading, and image lazy-loading components. These are new written with TypeScript and &lt;a href=&quot;https://lit-element.polymer-project.org&quot;&gt;LitElement&lt;/a&gt; for better code quality, browser integration, and future-proofness. The rewrites also include many bug fixes and performance improvements.&lt;/p&gt;
 
-&lt;p&gt;While I would also like to do a v9 (and accompanying price hike), most of the work I’ve done on it is now on the 8.5 and 8.6 tracks.&lt;/p&gt;</content><author><name>George Wilson</name><email>wilsogeo@gmail.com</email></author><summary type="html">Service release 8.5 includes a number of obvious improvements made possible by changes in the way the web works.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/louis-hansel.jpg" /></entry><entry><title type="html">A post and a project</title><link href="http://localhost:4000/posts/projects/2016-03-08-post-project/" rel="alternate" type="text/html" title="A post and a project" /><published>2016-03-08T00:00:00-07:00</published><updated>2016-03-08T00:00:00-07:00</updated><id>http://localhost:4000/posts/projects/post-project</id><content type="html" xml:base="http://localhost:4000/posts/projects/2016-03-08-post-project/">&lt;p&gt;Unlike Hyde, Hydejack is very opinionated about how you are going to use it.&lt;/p&gt;
+&lt;p&gt;While I would also like to do a v9 (and accompanying price hike), most of the work I’ve done on it is now on the 8.5 and 8.6 tracks.&lt;/p&gt;</content><author><name>George Wilson</name><email>wilsogeo@gmail.com</email></author><summary type="html">Service release 8.5 includes a number of obvious improvements made possible by changes in the way the web works.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/louis-hansel.jpg" /></entry><entry><title type="html">Optimizing Call Center Conversations</title><link href="http://localhost:4000/projects/2019-05-01-sieds-publication/" rel="alternate" type="text/html" title="Optimizing Call Center Conversations" /><published>2019-05-01T00:00:00-06:00</published><updated>2019-05-01T00:00:00-06:00</updated><id>http://localhost:4000/projects/sieds-publication</id><content type="html" xml:base="http://localhost:4000/projects/2019-05-01-sieds-publication/">&lt;p&gt;My team, which includes Charles Chen, Holt Crews, Kristi Kim, and Sophia Lam, published &lt;a href=&quot;/assets/SIEDSPaper2019.pdf&quot;&gt;this paper&lt;/a&gt; in the April 2019 as part of our System Engineering Undergraduate Capstone project.&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/projects/DataCollection.png&quot; alt=&quot;DataCollection&quot; data-width=&quot;1867&quot; data-height=&quot;1389&quot; /&gt;
+Data Collection and Methodology&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/projects/ExampleConversation.png&quot; alt=&quot;ExampleConversations&quot; data-width=&quot;1867&quot; data-height=&quot;1389&quot; /&gt;
+Sample processing of a transcribed conversation&lt;/p&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/projects/Results.png&quot; alt=&quot;Results&quot; data-width=&quot;1867&quot; data-height=&quot;1389&quot; /&gt;
+Optimal State Given Customer State&lt;/p&gt;</content><author><name>George Wilson</name><email>wilsogeo@gmail.com</email></author><summary type="html">My team, which includes Charles Chen, Holt Crews, Kristi Kim, and Sophia Lam, published this paper in the April 2019 as part of our System Engineering Undergraduate Capstone project.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.callcentrehelper.com/images/stories/2009/05/row-of-cc-advisors-set-up-vector-760.png" /></entry><entry><title type="html">A post and a project</title><link href="http://localhost:4000/posts/projects/2016-03-08-post-project/" rel="alternate" type="text/html" title="A post and a project" /><published>2016-03-08T00:00:00-07:00</published><updated>2016-03-08T00:00:00-07:00</updated><id>http://localhost:4000/posts/projects/post-project</id><content type="html" xml:base="http://localhost:4000/posts/projects/2016-03-08-post-project/">&lt;p&gt;Unlike Hyde, Hydejack is very opinionated about how you are going to use it.&lt;/p&gt;
 
 &lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
 &lt;p&gt;Features include:&lt;/p&gt;
@@ -115,42 +124,4 @@ They will appear in the listed order.&lt;/p&gt;
     &lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;sidebar_tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;mytag&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;othertag&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>George Wilson</name><email>wilsogeo@gmail.com</email></author><summary type="html">Unlike Hyde, Hydejack is very opinionated about how you are going to use it. Features Features include: Touch-enabled sidebar / drawer for mobile, including fallback when JS is disabled. Github Pages compatible tag support based on this post. Customizable link color and sidebar image, per-site, per-tag and per-post. Optional author section at the bottom of each post. Optional comment section powered by Disqus. Layout for posts grouped by year Wide array of social media icons on sidebar. Math blocks via KaTeX.</summary></entry><entry><title type="html">Introducing Hyde</title><link href="http://localhost:4000/projects/2013-12-28-introducing-hyde/" rel="alternate" type="text/html" title="Introducing Hyde" /><published>2013-12-28T00:00:00-07:00</published><updated>2013-12-28T00:00:00-07:00</updated><id>http://localhost:4000/projects/introducing-hyde</id><content type="html" xml:base="http://localhost:4000/projects/2013-12-28-introducing-hyde/">&lt;p&gt;Hyde is a brazen two-column &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; theme that pairs a prominent sidebar with uncomplicated content. It’s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
-
-&lt;p class=&quot;message&quot;&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: This post is outdated and only included for legacy reasons.
-See the &lt;a href=&quot;/docs/&quot;&gt;Documentation&lt;/a&gt; for up-to-date instructions.&lt;/p&gt;
-
-&lt;h3 id=&quot;built-on-poole&quot;&gt;Built on Poole&lt;/h3&gt;
-
-&lt;p&gt;Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by &lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt;. Poole, and every theme built on it (like Hyde here) includes the following:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Complete Jekyll setup included (layouts, config, &lt;a href=&quot;/404&quot;&gt;404&lt;/a&gt;, &lt;a href=&quot;/feed.xml&quot; class=&quot;external&quot;&gt;RSS feed&lt;/a&gt;, posts, and &lt;a href=&quot;/about/&quot;&gt;example page&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Mobile friendly design and development&lt;/li&gt;
-  &lt;li&gt;Easily scalable text and component sizing with &lt;code class=&quot;highlighter-rouge&quot;&gt;rem&lt;/code&gt; units in the CSS&lt;/li&gt;
-  &lt;li&gt;Support for a wide gamut of HTML elements&lt;/li&gt;
-  &lt;li&gt;Related posts (time-based, because Jekyll) below each post&lt;/li&gt;
-  &lt;li&gt;Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;hyde-features&quot;&gt;Hyde features&lt;/h3&gt;
-
-&lt;p&gt;In addition to the features of Poole, Hyde adds the following:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Sidebar includes support for textual modules and a dynamically generated navigation with active link support&lt;/li&gt;
-  &lt;li&gt;Two orientations for content and sidebar, default (left sidebar) and &lt;a href=&quot;https://github.com/poole/lanyon#reverse-layout&quot;&gt;reverse&lt;/a&gt; (right sidebar), available via &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/poole/hyde#themes&quot;&gt;Eight optional color schemes&lt;/a&gt;, available via &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/poole/hyde#readme&quot;&gt;Head to the readme&lt;/a&gt; to learn more.&lt;/p&gt;
-
-&lt;h3 id=&quot;browser-support&quot;&gt;Browser support&lt;/h3&gt;
-
-&lt;p&gt;Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.&lt;/p&gt;
-
-&lt;h3 id=&quot;download&quot;&gt;Download&lt;/h3&gt;
-
-&lt;p&gt;Hyde is developed on and hosted with GitHub. Head to the &lt;a href=&quot;https://github.com/poole/hyde&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.&lt;/p&gt;
-
-&lt;p&gt;Thanks!&lt;/p&gt;</content><author><name>author2</name></author><summary type="html">Hyde is a brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content. It’s based on Poole, the Jekyll butler.</summary></entry></feed>
+&lt;/ol&gt;</content><author><name>George Wilson</name><email>wilsogeo@gmail.com</email></author><summary type="html">Unlike Hyde, Hydejack is very opinionated about how you are going to use it. Features Features include: Touch-enabled sidebar / drawer for mobile, including fallback when JS is disabled. Github Pages compatible tag support based on this post. Customizable link color and sidebar image, per-site, per-tag and per-post. Optional author section at the bottom of each post. Optional comment section powered by Disqus. Layout for posts grouped by year Wide array of social media icons on sidebar. Math blocks via KaTeX.</summary></entry></feed>

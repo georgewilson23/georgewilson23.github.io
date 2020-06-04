@@ -47,16 +47,14 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Posts
+  - title:             Blog
     url:               /posts/
   - title:             Projects
     url:               /projects/
-  - title:             Resume
-    url:               /resume/
-  - title:             About
-    url:               /about/
   - title:             Portfolio
     url:               /portfolio/
+  - title:             About
+    url:               /about/
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:
