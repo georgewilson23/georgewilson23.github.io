@@ -1,22 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-06-03T23:16:03-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">George Wilson</title><subtitle>Data professional based in Denver, CO
-</subtitle><author><name>George Wilson</name><email>wilsogeo@gmail.com</email></author><entry><title type="html">Service Release 8.5</title><link href="http://localhost:4000/posts/2019-07-31-8.5.0/" rel="alternate" type="text/html" title="Service Release 8.5" /><published>2019-07-31T00:00:00-06:00</published><updated>2019-07-31T00:00:00-06:00</updated><id>http://localhost:4000/posts/8.5.0</id><content type="html" xml:base="http://localhost:4000/posts/2019-07-31-8.5.0/">&lt;p&gt;Service release 8.5 includes a number of obvious improvements made possible by changes in the way the web works.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-06-05T00:05:02-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">George Wilson</title><subtitle>Data professional based in Denver, CO
+</subtitle><author><name>George Wilson</name><email>wilsogeo@gmail.com</email></author><entry><title type="html">Promoting Fairness in AI</title><link href="http://localhost:4000/posts/2020-06-04-fairness-ai/" rel="alternate" type="text/html" title="Promoting Fairness in AI" /><published>2020-06-04T00:00:00-06:00</published><updated>2020-06-04T00:00:00-06:00</updated><id>http://localhost:4000/posts/fairness-ai</id><content type="html" xml:base="http://localhost:4000/posts/2020-06-04-fairness-ai/">&lt;h2 id=&quot;revisited-june-2020&quot;&gt;Revisited June 2020&lt;/h2&gt;
 
-&lt;h2 id=&quot;better-dark-mode&quot;&gt;Better Dark Mode&lt;/h2&gt;
-&lt;p&gt;This service release includes a major improvement to dark mode, which is now matching the operating system’s default. This is already possible in Safari, and just this week a new version of Chrome shipped with this feature as well.&lt;/p&gt;
+&lt;p&gt;The recent protests across the United States in response George Floyd’s murder by a Minneapolis police office &lt;strong&gt;highlight the systematic oppression of black people and minorities&lt;/strong&gt; which has lasted for centuries. The microscope is currently on policing and the criminal justice system – and rightly so. It is also important to recognize that institutional racism persists in education, housing, financial institutions, health care, and technology. Artificial intelligence, a tool enthusiastically applied within all of these systems, is prone to mirroring societal biases and amplifying them. I discuss them in my undergraduate thesis below, suggesting democratic research policies and public negotiation to avoid autocratic algorithms.&lt;/p&gt;
 
-&lt;h2 id=&quot;better-cover-pages&quot;&gt;Better Cover Pages&lt;/h2&gt;
-&lt;p&gt;Scrolling on a cover page will now close the drawer. This makes the cover page much more useable since it will no longer confuse to new visitors. This is especially true for desktops, where swiping horizontally isn’t a typical interaction pattern.
-A future version of Hydejack could link the extension of the drawer the the scroll position, similar to how many marketing sites work these days.&lt;/p&gt;
+&lt;p&gt;In the meantime, I’m starting with &lt;a href=&quot;https://tinyurl.com/antiracistresourceguide&quot;&gt;this anti-racist guide&lt;/a&gt;. As a white male, I am &lt;em&gt;extremely&lt;/em&gt; privileged. I cannot understand the difficulties and disadvantages of the other groups because &lt;em&gt;I have benefited from them&lt;/em&gt;. I must take it upon myself to stay informed. I must act as an ally and advocate no matter the circumstances.&lt;/p&gt;
 
-&lt;h2 id=&quot;better-font-loading&quot;&gt;Better Font Loading&lt;/h2&gt;
-&lt;p&gt;The awkward JS-based font loading mechanism is gone and now replaced by &lt;code class=&quot;highlighter-rouge&quot;&gt;font-display: swap&lt;/code&gt;. Support for this in Google Fonts landed earlier this year and is now used by Hydejack. As a side effect, fonts are now properly displayed in IE11 again, greatly improving backwards compatibility of the theme.&lt;/p&gt;
-
-&lt;p&gt;There are many more smaller changes and bugfixes. As always, yo can read the full patch notes in the &lt;a href=&quot;/CHANGELOG/&quot; class=&quot;heading flip-title&quot;&gt;CHANGELOG&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;whats-next&quot;&gt;What’s Next?&lt;/h2&gt;
-&lt;p&gt;8.6 will include a rewrite of the drawer, dynamic page loading, and image lazy-loading components. These are new written with TypeScript and &lt;a href=&quot;https://lit-element.polymer-project.org&quot;&gt;LitElement&lt;/a&gt; for better code quality, browser integration, and future-proofness. The rewrites also include many bug fixes and performance improvements.&lt;/p&gt;
-
-&lt;p&gt;While I would also like to do a v9 (and accompanying price hike), most of the work I’ve done on it is now on the 8.5 and 8.6 tracks.&lt;/p&gt;</content><author><name>George Wilson</name><email>wilsogeo@gmail.com</email></author><summary type="html">Service release 8.5 includes a number of obvious improvements made possible by changes in the way the web works.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/louis-hansel.jpg" /></entry><entry><title type="html">Optimizing Call Center Conversations</title><link href="http://localhost:4000/projects/posts/2019-05-01-sieds-publication/" rel="alternate" type="text/html" title="Optimizing Call Center Conversations" /><published>2019-05-01T00:00:00-06:00</published><updated>2019-05-01T00:00:00-06:00</updated><id>http://localhost:4000/projects/posts/sieds-publication</id><content type="html" xml:base="http://localhost:4000/projects/posts/2019-05-01-sieds-publication/">&lt;p&gt;Intro&lt;/p&gt;
+&lt;h2 id=&quot;science-technology--society-undergraduate-thesis&quot;&gt;Science, Technology, &amp;amp; Society Undergraduate Thesis&lt;/h2&gt;
+&lt;h4 id=&quot;orginially-published-on-march-28-2019&quot;&gt;Orginially Published on March 28, 2019&lt;/h4&gt;
+&lt;object data=&quot;../../assets/STS_Thesis_Wilson.pdf&quot; type=&quot;application/pdf&quot; width=&quot;100%&quot; height=&quot;800px&quot;&gt;
+    &lt;embed src=&quot;../../assets/STS_Thesis_Wilson.pdf&quot; /&gt;
+        &lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&quot;../../assets/STS_Thesis_Wilson.pdf&quot;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;
+    &amp;lt;/embed&amp;gt;
+&lt;/object&gt;</content><author><name>George Wilson</name><email>wilsogeo@gmail.com</email></author><summary type="html">Promoting Fairness in AI Revisited June 2020 The recent protests across the United States in response George Floyd’s murder by a Minneapolis police office highlight the systematic oppression of black people and minorities which has lasted for centuries. The microscope is currently on policing and the criminal justice system – and rightly so. It is also important to recognize that institutional racism persists in education, housing, financial institutions, health care, and technology. Artificial intelligence, a tool enthusiastically applied within all of these systems, is prone to mirroring societal biases and amplifying them. I discuss them in my undergraduate thesis below, suggesting democratic research policies and public negotiation to avoid autocratic algorithms. In the meantime, I’m starting with this anti-racist guide. As a white male, I am extremely privileged. I cannot understand the difficulties and disadvantages of the other groups because I have benefited from them. I must take it upon myself to stay informed. I must act as an ally and advocate no matter the circumstances. Science, Technology, &amp;amp; Society Undergraduate Thesis Orginially Published on March 28, 2019 This browser does not support PDFs. Please download the PDF to view it: Download PDF. &amp;lt;/embed&amp;gt;</summary></entry><entry><title type="html">Optimizing Call Center Conversations</title><link href="http://localhost:4000/projects/posts/2019-05-01-sieds-publication/" rel="alternate" type="text/html" title="Optimizing Call Center Conversations" /><published>2019-05-01T00:00:00-06:00</published><updated>2019-05-01T00:00:00-06:00</updated><id>http://localhost:4000/projects/posts/sieds-publication</id><content type="html" xml:base="http://localhost:4000/projects/posts/2019-05-01-sieds-publication/">&lt;p&gt;Intro&lt;/p&gt;
 
 &lt;p&gt;My team, which includes Charles Chen, Holt Crews, Kristi Kim, and Sophia Lam, published &lt;a href=&quot;/assets/SIEDSPaper2019.pdf&quot;&gt;this paper&lt;/a&gt; in the April 2019 as part of our System Engineering Undergraduate Capstone project.&lt;/p&gt;
 
@@ -27,103 +22,48 @@ Data Collection and Methodology&lt;/p&gt;
 Sample processing of a transcribed conversation&lt;/p&gt;
 
 &lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;/assets/img/projects/Results.png&quot; alt=&quot;Results&quot; data-width=&quot;1867&quot; data-height=&quot;1389&quot; /&gt;
-Optimal State Given Customer State&lt;/p&gt;</content><author><name>George Wilson</name><email>wilsogeo@gmail.com</email></author><summary type="html">Intro</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.callcentrehelper.com/images/stories/2009/05/row-of-cc-advisors-set-up-vector-760.png" /></entry><entry><title type="html">A post and a project</title><link href="http://localhost:4000/posts/projects/2016-03-08-post-project/" rel="alternate" type="text/html" title="A post and a project" /><published>2016-03-08T00:00:00-07:00</published><updated>2016-03-08T00:00:00-07:00</updated><id>http://localhost:4000/posts/projects/post-project</id><content type="html" xml:base="http://localhost:4000/posts/projects/2016-03-08-post-project/">&lt;p&gt;Unlike Hyde, Hydejack is very opinionated about how you are going to use it.&lt;/p&gt;
+Optimal State Given Customer State&lt;/p&gt;</content><author><name>George Wilson</name><email>wilsogeo@gmail.com</email></author><summary type="html">Intro</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.callcentrehelper.com/images/stories/2009/05/row-of-cc-advisors-set-up-vector-760.png" /></entry><entry><title type="html">Predicting MLB Performance</title><link href="http://localhost:4000/projects/posts/2019-04-30-baseball-analytics/" rel="alternate" type="text/html" title="Predicting MLB Performance" /><published>2019-04-30T00:00:00-06:00</published><updated>2019-04-30T00:00:00-06:00</updated><id>http://localhost:4000/projects/posts/baseball-analytics</id><content type="html" xml:base="http://localhost:4000/projects/posts/2019-04-30-baseball-analytics/">&lt;h2 id=&quot;project-description&quot;&gt;Project Description&lt;/h2&gt;
 
-&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
-&lt;p&gt;Features include:&lt;/p&gt;
+&lt;p&gt;The rise of sabermetrics in baseball, and the subsequent emergence of analytics across all sports, has redefined the sporting world and increased data-driven decisions. As an avid baseball fan and former player and coach myself, I am fascinated with how analytics can be used to predict player performance.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Touch-enabled sidebar / drawer for mobile, including fallback when JS is disabled.&lt;/li&gt;
-  &lt;li&gt;Github Pages compatible tag support based on &lt;a href=&quot;http://www.minddust.com/post/tags-and-categories-on-github-pages/&quot;&gt;this post&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Customizable link color and sidebar image, per-site, per-tag and per-post.&lt;/li&gt;
-  &lt;li&gt;Optional author section at the bottom of each post.&lt;/li&gt;
-  &lt;li&gt;Optional comment section powered by Disqus.&lt;/li&gt;
-  &lt;li&gt;Layout for posts grouped by year&lt;/li&gt;
-  &lt;li&gt;Wide array of social media icons on sidebar.&lt;/li&gt;
-  &lt;li&gt;Math blocks via &lt;a href=&quot;https://khan.github.io/KaTeX/&quot;&gt;KaTeX&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Baseball is unique because it has seven professional levels through Minor League Baseball (MiLB) that serve as prerequisites to Major League Baseball (MLB). Moreover, there are over 30 rounds in the MLB draft while other sports have as few as two rounds. With thousands of prospects, it is a difficult task to evaluate performance and determine which minor leaguers will have the most success in the major leagues. Between making trades, acquiring players, and releasing athletes, it is essential for teams to know the potential value of each player. Baseball teams combine human scouts and analytics to evaluate players; however, this is not shared publicly.&lt;/p&gt;
 
-&lt;!--more--&gt;
+&lt;p&gt;Public ranking systems, such as &lt;a href=&quot;https://www.mlb.com/pipeline&quot;&gt;MLB Pipeline&lt;/a&gt;, attempt to grade minor leaguers based on their potential to succeed. Knowing the most highly regarded prospects helps fans, bookmakers, writers, players, and teams understand the present and future of the MLB. &lt;strong&gt;Do these prospect “ranking” systems effectively offer more accurate predictions of major league performance than other player metrics?&lt;/strong&gt; Identifying top players before their emergence in the MLB provides a competitive advantage to teams who need to maximize player value. Using machine learning and other statistical tools on historical data may offer better predictions of player performance. Assembling better players creates stronger teams, which can boost ballpark attendance and increase revenue. More broadly, this research will focus on using historical minor league baseball performance predict major league performance. To answer these research questions, data collection, exploratory data analysis, and other statistical learning tools must be employed.&lt;/p&gt;
 
-&lt;p class=&quot;message&quot;&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: This post is outdated and only included for legacy reasons.
-See the &lt;a href=&quot;/docs/&quot; class=&quot;heading flip-title&quot;&gt;Documentation&lt;/a&gt; for up-to-date instructions.&lt;/p&gt;
+&lt;h2 id=&quot;data&quot;&gt;Data&lt;/h2&gt;
 
-&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
-&lt;p&gt;Hydejack is developed on and hosted with GitHub. Head to the &lt;a href=&quot;https://github.com/hydecorp/hydejack&quot;&gt;GitHub repository&lt;/a&gt;
-for downloads, bug reports, and feature requests.&lt;/p&gt;
+&lt;p&gt;Fortunately, professional baseball records are accessible and open source. The first major task of this project was to organize player batting and fielding records from both MLB and MiLB. &lt;a href=&quot;http://retrosheet.org&quot;&gt;Retrosheet&lt;/a&gt; contains all data on Major League Baseball players that can be read as a csv into any programming software.&lt;/p&gt;
 
-&lt;h2 id=&quot;sidebar&quot;&gt;Sidebar&lt;/h2&gt;
-&lt;p&gt;I love the original Hyde theme, but unfortunately the layout isn’t as great on small screens.
-Since the sidebar moves to the top, the user has to scroll down just to read the title of a blog post.&lt;/p&gt;
+&lt;p&gt;The challenge for this research was obtaining extensive minor league data. While historical data on minor league baseball players (including their ranking from MLB Pipeline) since 1977 is available at the Baseball Cube, the cost led me to develop my own approach to gathering data about prospects.&lt;/p&gt;
 
-&lt;p&gt;By using a drawer component I was able to retain the original two column layout.
-It’s possible to move the drawer via touch input (with the help of a little JavaScript).&lt;/p&gt;
+&lt;p&gt;I scraped from various online sources using selenium and beautiful soup – a slow, multi-day task necessary to obtain decades of data. Once I loaded the data, I merged minor leaguers’ records with their major league counterparts and annual prospect ranking from MLB pipeline if applicable. I intentionally excluded active players so that I could create a model based on historical data and make predictions for current players.&lt;/p&gt;
 
-&lt;p&gt;Since the background image contributes to the feel of the page I’m letting it peek over the edge a bit.
-This also provides a hint to the user that an interaction is possible.&lt;/p&gt;
+&lt;h2 id=&quot;statistical-methods&quot;&gt;Statistical Methods&lt;/h2&gt;
 
-&lt;h2 id=&quot;manual&quot;&gt;Manual&lt;/h2&gt;
-
-&lt;h3 id=&quot;configuration&quot;&gt;Configuration&lt;/h3&gt;
-&lt;p&gt;You can configure important aspects of the theme via
-&lt;a href=&quot;https://github.com/hydecorp/hydejack/blob/v3/_config.yml&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/a&gt;.
-This includes:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;the blog description in the sidebar&lt;/li&gt;
-  &lt;li&gt;the (optional) author description and photo&lt;/li&gt;
-  &lt;li&gt;default image and link color of the blog&lt;/li&gt;
-  &lt;li&gt;the github and twitter usernames&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;how-to-change-the-image-and-color-of-a-post&quot;&gt;How to Change the Image and Color of a Post&lt;/h3&gt;
-&lt;p&gt;In the manifest of a blog post, simply add an url as &lt;code class=&quot;highlighter-rouge&quot;&gt;image&lt;/code&gt; and a CSS color as &lt;code class=&quot;highlighter-rouge&quot;&gt;color&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Introducing Hydejack&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://qwtel.com/hydejack/assets/img/hyde.jpg&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;#949667'&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;how-to-add-a-new-tag&quot;&gt;How to Add a New Tag&lt;/h3&gt;
-&lt;p&gt;Tags are not meant to be used #instagram #style: #food #goodfood #happy #happylife #didimentionfood #yougetthepoint,
-as each tag requires some setup work. I tend to think of it as categories that can be combined.&lt;/p&gt;
-
+&lt;p&gt;The following methods were employed in this independent study:&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Add an entry to &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/tags.yml&lt;/code&gt;, where the key represents a slug and provide at least a &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; value and
-optionally &lt;code class=&quot;highlighter-rouge&quot;&gt;image&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;color&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;description&lt;/code&gt;.&lt;/p&gt;
+  &lt;li&gt;Summary statistics and exploratory data visualizations to describe the current prospect ranking system and its level of success in comparison to other metrics.&lt;/li&gt;
+  &lt;li&gt;Creation of a performance indicator to evaluate the performance of a player in the major leagues as well as players who do not make it to the top level.&lt;/li&gt;
+  &lt;li&gt;Supervised machine learning tools to predict major league performance with and without prospect ranking systems.&lt;/li&gt;
+&lt;/ol&gt;
 
-    &lt;p&gt;Example &lt;code class=&quot;highlighter-rouge&quot;&gt;/_data/tags.yml&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;I would have loved to continued work on this project given more time and resources. My goal was to eventually apply sequential machine learning to this problem. A sequential model would take into account a crucial factor – how a baseball prospect and the game itself changes over time. Perhaps a player has great potential early on in their career before an injury sets them off course. Capturing these sequential patterns may provide a better measure of the changing trajectory of a player.&lt;/p&gt;
 
-    &lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;mytag&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;My Tag&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Make a new file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;tag&lt;/code&gt; folder, using the same name you’ve used as the key / slug and
-change the &lt;code class=&quot;highlighter-rouge&quot;&gt;tag&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;permalink&lt;/code&gt; entries.&lt;/p&gt;
+&lt;h2 id=&quot;outcomes&quot;&gt;Outcomes&lt;/h2&gt;
 
-    &lt;p&gt;Example &lt;code class=&quot;highlighter-rouge&quot;&gt;/tag/mytag.md&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;This independent study provides a tool that can evaluate minor league players and predict their level of success in the major leagues. Data collection, data manipulation, visualization, machine learning, and model evaluation were core tasks.&lt;/p&gt;
 
-    &lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;blog-by-tag&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;mytag&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;permalink&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/tag/mytag/&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Tag your blog posts using the &lt;code class=&quot;highlighter-rouge&quot;&gt;tags&lt;/code&gt; key (color and image will only depend on the first tag).&lt;/p&gt;
+&lt;p&gt;I created a list of top prospects that MLB pipeline never ranked in their top 100 players. Hilariously, my model identified the college football standout Tim Tebow as a top unranked prospect.&lt;/p&gt;
 
-    &lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Introducing My New Tag&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;mytag&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;othertag&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;(optional) Add the tag to the sidebar, by adding it to &lt;code class=&quot;highlighter-rouge&quot;&gt;sidebar_tags&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.
-They will appear in the listed order.&lt;/p&gt;
+&lt;p&gt;I’ve embedded my final presentation that includes more detailed results &lt;strong&gt;below.&lt;/strong&gt;&lt;/p&gt;
 
-    &lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;sidebar_tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;mytag&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;othertag&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>George Wilson</name><email>wilsogeo@gmail.com</email></author><summary type="html">Unlike Hyde, Hydejack is very opinionated about how you are going to use it. Features Features include: Touch-enabled sidebar / drawer for mobile, including fallback when JS is disabled. Github Pages compatible tag support based on this post. Customizable link color and sidebar image, per-site, per-tag and per-post. Optional author section at the bottom of each post. Optional comment section powered by Disqus. Layout for posts grouped by year Wide array of social media icons on sidebar. Math blocks via KaTeX.</summary></entry></feed>
+&lt;style&gt;
+.responsive-wrap iframe{ max-width: 100%;}
+&lt;/style&gt;
+
+&lt;div class=&quot;responsive-wrap&quot;&gt;
+&lt;!-- this is the embed code provided by Google --&gt;
+	&lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vTnV1MYvz9RffVzokitb-5YYNFU_yb7VWR3kQ8J4pgYgmXe0NRamzUzGVz3RLttDnzb2UaLIW4o42Sx/embed?start=false&amp;amp;loop=false&amp;amp;delayms=5000&quot; frameborder=&quot;0&quot; width=&quot;960&quot; height=&quot;569&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;&lt;!-- Google embed ends --&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Please reach out if you have any comments or questions. I would happily share more details of my work, or just talk baseball with you!&lt;/strong&gt;&lt;/p&gt;</content><author><name>George Wilson</name><email>wilsogeo@gmail.com</email></author><summary type="html">Predicting MLB Performance Project Description</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://digital.bu.edu/wp-content/uploads/2017/05/Sabermetrics-1024x576-770x380.jpg" /></entry></feed>

@@ -19,7 +19,7 @@ Mr. Wilson is a certified AWS Cloud Practitioner and holds a degree in Systems E
 
 ## Personal Life
 
-Secret... for now
+???
 
 ## About this site
 

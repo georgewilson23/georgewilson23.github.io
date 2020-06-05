@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\docs",
+    "\\posts",
+    "\\posts\\_posts",
+    "\\projects",
+    "\\projects\\_posts",
+    "\\_data",
+    "\\_featured_categories"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\about.md",
   "PreviewInSolutionExplorer": false
 }
