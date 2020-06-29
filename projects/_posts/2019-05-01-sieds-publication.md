@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Optimizing Call Center Conversations
-description: Summary of the paper my team published in the 2019 Systems and Information Engineering Design Symposium 
+description: Summary of my paper published in the 2019 Systems and Information Engineering Design Symposium 
+categories: [posts, projects]
 image: https://www.callcentrehelper.com/images/stories/2009/05/row-of-cc-advisors-set-up-vector-760.png
 author: author1
 noindex: true
 ---
+
+Intro
 
 My team, which includes Charles Chen, Holt Crews, Kristi Kim, and Sophia Lam, published [this paper](../../assets/SIEDSPaper2019.pdf) in the April 2019 as part of our System Engineering Undergraduate Capstone project.
 

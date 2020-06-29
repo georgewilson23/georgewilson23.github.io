@@ -3,7 +3,7 @@
 layout: about
 title:  About
 ---
-# Summary
+## Summary
 
 A motivated self-starter, Mr. Wilson is passionate about discovering new tools and understanding client objectives to solve the toughest business problems. Most recently, Mr. Wilson served as a data engineer to modernize a state government workers' compensation portal. In this role, Mr. Wilson helped establish a data mart in SQL Server and built custom reports using PowerBI and SSRS.
 
@@ -11,15 +11,15 @@ Mr. Wilson is a certified AWS Cloud Practitioner and holds a degree in Systems E
 
 ## Resume
 
-<object data="http://georgewilson23.github.io/assets/Resume.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="http://georgewilson23.github.io/assets/Resume.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://georgewilson23.github.io/assets/Resume.pdf">Download PDF</a>.</p>
+<object data="/assets/Resume.pdf" type="application/pdf" width="100%" height="800px">
+    <embed src="/assets/Resume.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/Resume.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 
 ## Personal Life
 
-Secret... for now
+???
 
 ## About this site
 
