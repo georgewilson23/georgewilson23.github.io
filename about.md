@@ -5,25 +5,18 @@ title:  About
 ---
 ## Summary
 
-A motivated self-starter, Mr. Wilson is passionate about discovering new tools and understanding client objectives to solve the toughest business problems. Most recently, Mr. Wilson served as a data engineer to modernize a state government workers' compensation portal. In this role, Mr. Wilson helped establish a data mart in SQL Server and built custom reports using PowerBI and SSRS.
+A motivated self-starter, George is passionate about discovering new tools and understanding client objectives to solve the toughest business problems. Most recently, George served as a data engineer to modernize a state government workers' compensation portal. In this role, George helped establish a data mart in SQL Server and built custom reports using PowerBI and SSRS.
 
-Mr. Wilson is a certified AWS Cloud Practitioner and holds a degree in Systems Engineering and Statistics from the University of Virginia. Through his research and studies, Mr. Wilson has experience designing interactive dashboards, processing complex data sets and applying cutting-edge machine learning algorithms in Python and R.  Mr. Wilson has proven success in collaborative environments by way of strong communication skills and a commitment to quality work.
+George is a certified AWS Cloud Practitioner and holds a degree in Systems Engineering and Statistics from the University of Virginia. Through his research and studies, George has experience designing interactive dashboards, processing complex data sets and applying cutting-edge machine learning algorithms in Python and R. George has proven success in collaborative environments by way of strong communication skills and a commitment to quality work.
 
 ## Resume
 
-<object data="/assets/Resume.pdf" type="application/pdf" width="100%" height="800px">
-    <embed src="/assets/Resume.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/Resume.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+<iframe src="https://drive.google.com/file/d/1SlZXV73JPG45LEV-FBLretC4Is-yM56w/view?embedded=True" style="width:100%; height:700px;" frameborder="0"></iframe>
 
-## Personal Life
 
-???
+##  About me & this site
 
-## About this site
-
-I first developed this site in May 2020 as a project to refresh my front-end development skills and begin cultivating my personal brand.
+Whether its mountain biking, hiking, climbing, skiing, or running, you'll likely find me enjoying the great outdoors. I'm 23 year old who grew up near Milwaukee, Wisconsin. I first developed this site in May 2020 as a project to refresh my front-end development skills and begin cultivating my personal brand.
 
 All of the photos and content found on these pages are my own, unless otherwise noted. 
 

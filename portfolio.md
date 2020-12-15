@@ -1,8 +1,13 @@
 ---
-# file: about.md
 layout: page
-title:  Portfolio
-image: /assets/img/blog/hydejack-8.png
 ---
-
-Work in progress. Goal is to display photos and data visualizations
+{% assign sorted_gallery = site.photo_gallery | sort: 'weight' %}
+<ul class="photo-gallery">
+  {% for image in sorted_gallery %}
+    <li>
+      <a href="{{ image.link }}">
+        <img src="{{ image.image_path }}" alt="{{ image.title }}">
+      </a>
+    </li>
+  {% endfor %}
+</ul>
