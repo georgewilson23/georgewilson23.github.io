@@ -24,12 +24,11 @@ title:                 George Wilson
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Data professional based in Denver, CO
+  Data professional
 
 # A shorter description for the sidebar.
 tagline:               >
-  Data enthusiast and adventure-seeker based in Denver, CO
-  <br/>
+  Data enthusiast and adventure-seeker
   <br/>
   <br/>
   <br/>
@@ -50,21 +49,21 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Blog
+  - title:             Posts
     url:               /posts/
   - title:             Projects
     url:               /projects/
   - title:             Portfolio
     url:               /portfolio/
-  - title:             About
-    url:               /about/
+  - title:             Resume
+    url:               /resume/
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-# legal:
-#   - title:             Impress
-#     url:               /impress/
-#   - title:             Cookies Policy
-#     url:               /cookies-policy/
+legal:
+  - title:             Legal
+    url:               /legal/
+  - title:             License
+    url:               /LICENSE/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2020. All rights reserved.
@@ -225,7 +224,7 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /:name/
+    permalink:         posts/:name/
     output:            true
 
   featured_tags:
@@ -276,8 +275,8 @@ plugins:
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack
-# remote_theme: qwtel/hydejack@gem
+#theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9.0.5
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
@@ -302,8 +301,8 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
+social:
+  name:                George Wilson
 #   links:
 #     - https://twitter.com/<username>
 #     - https://github.com/<username>

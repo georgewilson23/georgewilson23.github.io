@@ -10,7 +10,7 @@
 
 # Free version
 # ---------------------------------------------------------------------------------------
-home:                  Home
+home:                  Hi there. I'm George
 pages:                 Pages
 posts:                 Posts
 about:                 About
@@ -30,6 +30,7 @@ permalink:             Permalink
 permalink_icon:        icon-link
 templates:             Templates (for web app)
 present:               present
+note:                  Note
 
 loading:               Loading…
 redirecting:           Redirecting…

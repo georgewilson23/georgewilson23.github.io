@@ -7,11 +7,10 @@ image: https://digital.bu.edu/wp-content/uploads/2017/05/Sabermetrics-1024x576-7
 author: author1
 noindex: true
 ---
-# Predicting MLB Performance
-## Project Description
-
 The rise of sabermetrics in baseball, and the subsequent emergence of analytics across all sports, has redefined the sporting world and increased data-driven decisions. As an avid baseball fan and former player and coach myself, I am fascinated with how analytics can be used to predict player performance. 
 
+# Predicting MLB Performance
+## Project Description
 Baseball is unique because it has seven professional levels through Minor League Baseball (MiLB) that serve as prerequisites to Major League Baseball (MLB). Moreover, there are over 30 rounds in the MLB draft while other sports have as few as two rounds. With thousands of prospects, it is a difficult task to evaluate performance and determine which minor leaguers will have the most success in the major leagues. Between making trades, acquiring players, and releasing athletes, it is essential for teams to know the potential value of each player. Baseball teams combine human scouts and analytics to evaluate players; however, this is not shared publicly. 
 
 Public ranking systems, such as [MLB Pipeline](https://www.mlb.com/pipeline), attempt to grade minor leaguers based on their potential to succeed. Knowing the most highly regarded prospects helps fans, bookmakers, writers, players, and teams understand the present and future of the MLB. **Do these prospect "ranking" systems effectively offer more accurate predictions of major league performance than other player metrics?** Identifying top players before their emergence in the MLB provides a competitive advantage to teams who need to maximize player value. Using machine learning and other statistical tools on historical data may offer better predictions of player performance. Assembling better players creates stronger teams, which can boost ballpark attendance and increase revenue. More broadly, this research will focus on using historical minor league baseball performance predict major league performance. To answer these research questions, data collection, exploratory data analysis, and other statistical learning tools must be employed. 

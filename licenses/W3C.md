@@ -1,3 +1,6 @@
+--
+sitemap: false
+--
 # W3C SOFTWARE NOTICE AND LICENSE
 
 **Status**: This license takes effect 13 May, 2015.

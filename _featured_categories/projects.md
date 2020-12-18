@@ -1,7 +1,8 @@
 ---
-layout: list
+layout: default
 title: Projects
 slug: projects
+permalink: /projects
 menu: true
 order: 2
 description: >
