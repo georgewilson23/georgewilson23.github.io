@@ -3,7 +3,7 @@ layout: default
 title: Projects
 slug: projects
 permalink: /projects
-menu: true
+menu: false
 order: 2
 description: >
   A collection of projects and research I have spent time on. 

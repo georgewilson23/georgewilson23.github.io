@@ -32,6 +32,8 @@ tagline:               >
   <br/>
   <br/>
   <br/>
+  <br/>
+
 # A list of keywords for your blog
 keywords:              [blog, resume, portfolio data, analytics, teaching, ai, visualization]
 
@@ -51,8 +53,8 @@ author:
 menu:
   - title:             Posts
     url:               /posts/
-  - title:             Projects
-    url:               /projects/
+#  - title:             Projects
+#    url:               /projects/
   - title:             Portfolio
     url:               /portfolio/
   - title:             Resume

@@ -1,10 +1,20 @@
 {
   "ExpandedNodes": [
     "",
+    "\\posts",
     "\\posts\\_posts",
-    "\\projects\\_posts",
+    "\\projects",
+    "\\vendor",
+    "\\vendor\\cache\\ruby",
+    "\\vendor\\cache\\ruby\\2.6.0",
+    "\\vendor\\cache\\ruby\\2.6.0\\gems",
+    "\\vendor\\cache\\ruby\\2.6.0\\gems\\jekyll-sitemap-1.3.1\\lib",
+    "\\vendor\\cache\\ruby\\2.6.0\\gems\\jekyll-sitemap-1.3.1\\lib\\jekyll",
+    "\\_data",
+    "\\_featured_categories",
+    "\\_includes\\components",
     "\\_layouts"
   ],
-  "SelectedNode": "\\portfolio.md",
+  "SelectedNode": "\\about.md",
   "PreviewInSolutionExplorer": false
 }
