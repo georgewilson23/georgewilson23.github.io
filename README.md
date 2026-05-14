@@ -74,3 +74,20 @@ Edit `src/data/resume.json` to update experience, skills, education, and certifi
 ## Managing About Bio
 
 Edit `src/content/about/index.md` in plain markdown.
+
+## Deployment
+
+The site deploys automatically via GitHub Actions (`.github/workflows/deploy.yml`).
+
+**How it works:**
+1. Push changes to a feature branch
+2. Open a PR to `main`
+3. Merge the PR
+4. GitHub Actions builds the site and deploys to GitHub Pages
+
+**Manual deploy:** You can also trigger a deploy from the Actions tab using "Run workflow" (workflow_dispatch).
+
+**Preview locally before deploying:**
+```bash
+npm run build && npm run preview
+```
