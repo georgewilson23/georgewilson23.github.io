@@ -1,6 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --color-accent: #4FB1BA;
+  --color-accent-dark: #3A8A91;
+}
 
 @layer base {
   html {

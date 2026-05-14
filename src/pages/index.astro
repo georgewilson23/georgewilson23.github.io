@@ -30,7 +30,7 @@ const projects = (await getCollection('projects'))
             title={post.data.title}
             description={post.data.description}
             pubDate={post.data.pubDate}
-            slug={post.slug}
+            slug={post.id}
             tags={post.data.tags}
           />
         ))}
@@ -50,7 +50,7 @@ const projects = (await getCollection('projects'))
             title={project.data.title}
             description={project.data.description}
             pubDate={project.data.pubDate}
-            slug={project.slug}
+            slug={project.id}
             tags={project.data.tags}
             basePath="/projects"
           />
