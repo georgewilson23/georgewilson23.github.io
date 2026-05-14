@@ -1,0 +1,108 @@
+[
+  {
+    "src": "/assets/photography/anghorwat.JPG",
+    "alt": "Angkor Wat temple at sunset",
+    "location": "Angkor Wat, Cambodia",
+    "tags": ["Cambodia", "Temples", "Landscape"],
+    "date": ""
+  },
+  {
+    "src": "/assets/photography/anghorwat_sunrise.JPG",
+    "alt": "Angkor Wat at sunrise",
+    "location": "Angkor Wat, Cambodia",
+    "tags": ["Cambodia", "Temples", "Landscape"],
+    "date": ""
+  },
+  {
+    "src": "/assets/photography/siemreap_faces.JPG",
+    "alt": "Stone faces at Bayon temple",
+    "location": "Siem Reap, Cambodia",
+    "tags": ["Cambodia", "Temples"],
+    "date": ""
+  },
+  {
+    "src": "/assets/photography/laos_slowboat.JPG",
+    "alt": "Slow boat on the Mekong River",
+    "location": "Laos",
+    "tags": ["Laos", "Landscape"],
+    "date": ""
+  },
+  {
+    "src": "/assets/photography/laoswaterfall.JPG",
+    "alt": "Waterfall in Laos",
+    "location": "Laos",
+    "tags": ["Laos", "Landscape"],
+    "date": ""
+  },
+  {
+    "src": "/assets/photography/beerlao.JPG",
+    "alt": "Beer Lao by the river",
+    "location": "Laos",
+    "tags": ["Laos", "Travel"],
+    "date": ""
+  },
+  {
+    "src": "/assets/photography/ninhbinh.JPG",
+    "alt": "Rice paddies and karst mountains",
+    "location": "Ninh Binh, Vietnam",
+    "tags": ["Vietnam", "Landscape"],
+    "date": ""
+  },
+  {
+    "src": "/assets/photography/chiangmai_elephants.jpg",
+    "alt": "Elephants in Chiang Mai",
+    "location": "Chiang Mai, Thailand",
+    "tags": ["Thailand", "Wildlife"],
+    "date": ""
+  },
+  {
+    "src": "/assets/photography/kohchang.jpg",
+    "alt": "Beach on Koh Chang island",
+    "location": "Koh Chang, Thailand",
+    "tags": ["Thailand", "Beach"],
+    "date": ""
+  },
+  {
+    "src": "/assets/photography/khaoyai.JPG",
+    "alt": "Khao Yai landscape",
+    "location": "Khao Yai, Thailand",
+    "tags": ["Thailand", "Landscape"],
+    "date": ""
+  },
+  {
+    "src": "/assets/photography/khaoyai_downpour.jpg",
+    "alt": "Downpour in Khao Yai",
+    "location": "Khao Yai, Thailand",
+    "tags": ["Thailand", "Landscape"],
+    "date": ""
+  },
+  {
+    "src": "/assets/photography/khaoyaipark.JPG",
+    "alt": "Khao Yai National Park",
+    "location": "Khao Yai, Thailand",
+    "tags": ["Thailand", "Landscape", "Wildlife"],
+    "date": ""
+  },
+  {
+    "src": "/assets/photography/ants.JPG",
+    "alt": "Ants on a leaf",
+    "location": "Southeast Asia",
+    "tags": ["Wildlife"],
+    "date": ""
+  },
+  {
+    "src": "/assets/photography/snake.JPG",
+    "alt": "Snake in the wild",
+    "location": "Southeast Asia",
+    "tags": ["Wildlife"],
+    "date": ""
+  },
+  {
+    "src": "/assets/photography/travelpack.jpg",
+    "alt": "Travel backpack ready to go",
+    "location": "On the road",
+    "tags": ["Travel"],
+    "date": "",
+    "hidden": false
+  }
+]

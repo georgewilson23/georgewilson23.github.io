@@ -1,0 +1,81 @@
+---
+import ThemeToggle from './ThemeToggle.astro';
+
+const navLinks = [
+  { href: '/', label: 'Home' },
+  { href: '/blog', label: 'Blog' },
+  { href: '/projects', label: 'Projects' },
+  { href: '/photos', label: 'Photos' },
+  { href: '/about', label: 'About' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="sticky top-0 z-50 bg-white/80 dark:bg-gray-950/80 backdrop-blur-sm border-b border-gray-200 dark:border-gray-800">
+  <nav class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
+    <a href="/" class="text-lg font-semibold text-gray-900 dark:text-gray-100 hover:text-accent transition-colors">
+      GW
+    </a>
+
+    <div class="flex items-center gap-6">
+      <ul class="hidden sm:flex items-center gap-6">
+        {navLinks.map(({ href, label }) => (
+          <li>
+            <a
+              href={href}
+              class:list={[
+                'text-sm font-medium transition-colors',
+                currentPath === href || (href !== '/' && currentPath.startsWith(href))
+                  ? 'text-accent'
+                  : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100',
+              ]}
+            >
+              {label}
+            </a>
+          </li>
+        ))}
+      </ul>
+
+      <ThemeToggle />
+
+      <!-- Mobile menu button -->
+      <button
+        id="mobile-menu-btn"
+        class="sm:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800"
+        aria-label="Toggle menu"
+      >
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div id="mobile-menu" class="hidden sm:hidden border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950">
+    <ul class="px-4 py-3 space-y-2">
+      {navLinks.map(({ href, label }) => (
+        <li>
+          <a
+            href={href}
+            class:list={[
+              'block py-2 text-sm font-medium transition-colors',
+              currentPath === href || (href !== '/' && currentPath.startsWith(href))
+                ? 'text-accent'
+                : 'text-gray-600 dark:text-gray-400',
+            ]}
+          >
+            {label}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</header>
+
+<script is:inline>
+  document.getElementById('mobile-menu-btn').addEventListener('click', () => {
+    document.getElementById('mobile-menu').classList.toggle('hidden');
+  });
+</script>

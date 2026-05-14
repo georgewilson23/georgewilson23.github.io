@@ -1,0 +1,154 @@
+---
+interface Photo {
+  src: string;
+  alt: string;
+  caption?: string;
+  location?: string;
+  tags?: string[];
+  date?: string;
+}
+
+interface Props {
+  photos: Photo[];
+}
+
+const { photos } = Astro.props;
+
+const allTags = [...new Set(photos.flatMap((p) => p.tags || []))].sort();
+---
+
+<!-- Tag filter pills -->
+<div class="flex flex-wrap gap-2 mb-6" id="tag-filters">
+  <button
+    class="tag-pill active px-3 py-1 rounded-full text-sm font-medium transition-colors bg-blue-600 text-white"
+    data-tag="all"
+  >
+    All
+  </button>
+  {allTags.map((tag) => (
+    <button
+      class="tag-pill px-3 py-1 rounded-full text-sm font-medium transition-colors bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-blue-900"
+      data-tag={tag}
+    >
+      {tag}
+    </button>
+  ))}
+</div>
+
+<!-- Photo grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4" id="photo-grid">
+  {photos.map((photo) => (
+    <figure
+      class="photo-item group relative overflow-hidden rounded-lg aspect-[4/3] cursor-pointer"
+      data-tags={JSON.stringify(photo.tags || [])}
+      data-src={photo.src}
+      data-alt={photo.alt}
+      data-location={photo.location || ''}
+      data-date={photo.date || ''}
+      data-photo-tags={JSON.stringify(photo.tags || [])}
+    >
+      <img
+        src={photo.src}
+        alt={photo.alt}
+        loading="lazy"
+        class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+      />
+      <figcaption class="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/70 to-transparent text-white text-sm opacity-0 group-hover:opacity-100 transition-opacity">
+        <span>{photo.caption || photo.location}</span>
+        {photo.date && <span class="block text-xs text-gray-300 mt-0.5">{photo.date}</span>}
+      </figcaption>
+    </figure>
+  ))}
+</div>
+
+<!-- Lightbox modal -->
+<div id="lightbox" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/90 p-4 backdrop-blur-sm">
+  <button id="lightbox-close" class="absolute top-4 right-4 text-white/80 hover:text-white text-3xl leading-none z-10">&times;</button>
+  <div class="max-w-5xl w-full max-h-[90vh] flex flex-col items-center">
+    <img id="lightbox-img" src="" alt="" class="max-h-[75vh] w-auto object-contain rounded-lg" />
+    <div id="lightbox-details" class="mt-4 text-center text-white">
+      <p id="lightbox-location" class="text-lg font-medium"></p>
+      <p id="lightbox-date" class="text-sm text-gray-300 mt-1"></p>
+      <div id="lightbox-tags" class="flex flex-wrap justify-center gap-2 mt-3"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const pills = document.querySelectorAll<HTMLButtonElement>('.tag-pill');
+  const items = document.querySelectorAll<HTMLElement>('.photo-item');
+
+  const activeClasses = ['bg-blue-600', 'text-white'];
+  const inactiveClasses = ['bg-gray-200', 'dark:bg-gray-700', 'text-gray-700', 'dark:text-gray-300', 'hover:bg-blue-100', 'dark:hover:bg-blue-900'];
+
+  function setActive(btn: HTMLButtonElement) {
+    pills.forEach((p) => {
+      p.classList.remove(...activeClasses);
+      p.classList.add(...inactiveClasses);
+    });
+    btn.classList.remove(...inactiveClasses);
+    btn.classList.add(...activeClasses);
+  }
+
+  pills.forEach((pill) => {
+    pill.addEventListener('click', () => {
+      const tag = pill.dataset.tag;
+      setActive(pill);
+
+      items.forEach((item) => {
+        if (tag === 'all') {
+          item.style.display = '';
+        } else {
+          const tags: string[] = JSON.parse(item.dataset.tags || '[]');
+          item.style.display = tags.includes(tag!) ? '' : 'none';
+        }
+      });
+    });
+  });
+
+  // Lightbox
+  const lightbox = document.getElementById('lightbox')!;
+  const lightboxImg = document.getElementById('lightbox-img') as HTMLImageElement;
+  const lightboxLocation = document.getElementById('lightbox-location')!;
+  const lightboxDate = document.getElementById('lightbox-date')!;
+  const lightboxTags = document.getElementById('lightbox-tags')!;
+  const lightboxClose = document.getElementById('lightbox-close')!;
+
+  items.forEach((item) => {
+    item.addEventListener('click', () => {
+      const src = item.dataset.src || '';
+      const alt = item.dataset.alt || '';
+      const location = item.dataset.location || '';
+      const date = item.dataset.date || '';
+      const tags: string[] = JSON.parse(item.dataset.photoTags || '[]');
+
+      lightboxImg.src = src;
+      lightboxImg.alt = alt;
+      lightboxLocation.textContent = location;
+      lightboxDate.textContent = date;
+      lightboxDate.style.display = date ? '' : 'none';
+
+      lightboxTags.innerHTML = tags
+        .map((t) => `<span class="px-2 py-0.5 rounded-full text-xs bg-white/20 text-white">${t}</span>`)
+        .join('');
+
+      lightbox.classList.remove('hidden');
+      lightbox.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function closeLightbox() {
+    lightbox.classList.add('hidden');
+    lightbox.classList.remove('flex');
+    document.body.style.overflow = '';
+  }
+
+  lightboxClose.addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+</script>

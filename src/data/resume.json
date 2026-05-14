@@ -1,0 +1,98 @@
+{
+  "summary": "Data Engineering Manager with 6+ years of experience leading teams that build and manage data solutions in mission-critical environments. Track record of delivering cloud cost efficiencies, managing high-throughput real-time data systems, and architecting production platforms serving millions of consumers.",
+  "experience": [
+    {
+      "title": "Manager, Data & Analytics",
+      "company": "CapTech",
+      "location": "Denver, CO (Remote)",
+      "start": "Aug 2023",
+      "end": "Present",
+      "bullets": [
+        "Enable organizations to collect, package, and redistribute proprietary data for gamification and fan engagement",
+        "Lead strategy and implementation of migration from Azure to AWS"
+      ]
+    },
+    {
+      "title": "Senior Consultant, Data Engineering",
+      "company": "CapTech",
+      "location": "Denver, CO",
+      "start": "Jul 2021",
+      "end": "Aug 2023",
+      "bullets": [
+        "Established statistical reporting for telecasts to provide a more engaging product",
+        "Developed serverless APIs to enhance media and officials' ability to track player movement and live scoring projections"
+      ]
+    },
+    {
+      "title": "Consultant, Data Engineering",
+      "company": "CapTech",
+      "location": "Denver, CO",
+      "start": "Sep 2019",
+      "end": "Jul 2021",
+      "bullets": []
+    },
+    {
+      "title": "Data Science Program Lead",
+      "company": "Forge",
+      "location": "Charlottesville, VA (Part-time)",
+      "start": "Aug 2017",
+      "end": "Jun 2019",
+      "bullets": [
+        "Led a 10-week program to provide students with a data science toolkit in Python",
+        "Developed curriculum for an intensive boot camp to prepare students for data science internships",
+        "Taught and mentored 30 students, tailoring material to meet requirements of their assigned company"
+      ]
+    },
+    {
+      "title": "Analyst Intern",
+      "company": "CapTech",
+      "location": "Richmond, VA",
+      "start": "May 2018",
+      "end": "Aug 2018",
+      "bullets": [
+        "Developed an iOS and web application solution for a client in the auto retail industry"
+      ]
+    },
+    {
+      "title": "Data Analyst Intern",
+      "company": "Locus Health",
+      "location": "Charlottesville, VA",
+      "start": "Jul 2017",
+      "end": "Jan 2018",
+      "bullets": [
+        "Created visualizations and ensured accuracy of reports",
+        "Designed report building tool to evaluate surgeon performance and eliminate 15 hours of labor per report generation"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Virginia",
+      "degree": "B.S. Systems Engineering & Statistics",
+      "start": "2015",
+      "end": "2019"
+    }
+  ],
+  "skills": [
+    "Python",
+    "SQL",
+    "AWS",
+    "Azure",
+    "Databricks",
+    "Spark",
+    "dbt",
+    "Airflow",
+    "Data Pipelines",
+    "Data Models",
+    "Serverless",
+    "PowerBI",
+    "Tableau",
+    "Git",
+    "Docker",
+    "Machine Learning"
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect Associate",
+    "Databricks Certified Data Engineer Associate"
+  ]
+}

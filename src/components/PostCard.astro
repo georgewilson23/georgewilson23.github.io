@@ -1,0 +1,38 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+  pubDate: Date;
+  slug: string;
+  tags?: string[];
+  basePath?: string;
+}
+
+const { title, description, pubDate, slug, tags = [], basePath = '/blog' } = Astro.props;
+const formattedDate = pubDate.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'short',
+  day: 'numeric',
+});
+---
+
+<article class="group">
+  <a href={`${basePath}/${slug}`} class="block p-5 -mx-5 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-900 transition-colors">
+    <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 mb-2">
+      <h3 class="text-lg font-semibold group-hover:text-accent transition-colors">{title}</h3>
+      <time class="text-sm text-gray-500 dark:text-gray-400 shrink-0" datetime={pubDate.toISOString()}>
+        {formattedDate}
+      </time>
+    </div>
+    {description && (
+      <p class="text-gray-600 dark:text-gray-400 text-sm line-clamp-2">{description}</p>
+    )}
+    {tags.length > 0 && (
+      <div class="flex flex-wrap gap-2 mt-2">
+        {tags.map((tag) => (
+          <span class="px-2 py-0.5 bg-gray-100 dark:bg-gray-800 rounded text-xs text-gray-600 dark:text-gray-400">{tag}</span>
+        ))}
+      </div>
+    )}
+  </a>
+</article>

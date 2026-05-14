@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PhotoGrid from '../components/PhotoGrid.astro';
+import allPhotos from '../data/photos.json';
+
+const photos = allPhotos.filter((p) => !p.hidden);
+---
+
+<BaseLayout title="Photos | George Wilson" description="Travel photography from adventures around the world.">
+  <section class="max-w-5xl mx-auto px-4 py-12">
+    <h1 class="text-3xl font-bold mb-2">Photos</h1>
+    <p class="text-gray-600 dark:text-gray-400 mb-8">Snapshots from travels through Southeast Asia and beyond.</p>
+    <PhotoGrid photos={photos} />
+  </section>
+</BaseLayout>
